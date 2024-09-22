@@ -100,7 +100,3 @@ Both the React frontend and Node.js backend will be containerized and pushed to 
 2. **Create an ALB for the Node.js Backend**:
    - This ALB will handle all incoming API requests for the backend.
    - Ensure the ALB forwards requests to the backend ECS service, which in turn communicates with the MongoDB Atlas cluster.
-
-### 6. Security Considerations
-- **Security Groups**: Ensure that your security groups allow necessary inbound traffic to your ALBs and restrict access appropriately for your backend service to communicate only with MongoDB Atlas.
-- **VPC Setup**: Configure your VPC with public subnets for the frontend and private subnets for the backend.
