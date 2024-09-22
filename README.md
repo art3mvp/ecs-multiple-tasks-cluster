@@ -72,7 +72,7 @@ Both the React frontend and Node.js backend will be containerized and pushed to 
 1. **Build and push the React frontend** image to DockerHub:
    ```bash
    # Navigate to your React app directory
-   docker build -t <your-dockerhub-username>/react-frontend .
+   docker build -f frontend/Dockerfile.prod -t <your-dockerhub-username>/react-frontend .
    docker push <your-dockerhub-username>/react-frontend
    ```
 
