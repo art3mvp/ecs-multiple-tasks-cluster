@@ -13,7 +13,6 @@ This project sets up a **MongoDB Atlas** cluster integrated with an **ECS cluste
   - [3. Push Docker Images to DockerHub](#3-push-docker-images-to-dockerhub)
   - [4. ECS Cluster and Fargate Setup](#4-ecs-cluster-and-fargate-setup)
   - [5. Application Load Balancer Setup](#5-application-load-balancer-setup)
-- [License](#license)
 
 ## Architecture Overview
 This architecture consists of:
